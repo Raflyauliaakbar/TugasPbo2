@@ -116,5 +116,5 @@ Aplikasi ini dibuat untuk tujuan pembelajaran dan bersifat open-source. Anda beb
 - **Kelas**: 5B REG BJB TI
 - **Kontak**: mraflyauliaakbar03@gmail.com
 
-Terima kasih telah menggunakan aplikasi ini! Jika Anda menemukan bug atau memiliki saran, silakan buka Issue di repository ini.
+Terima kasih telah menggunakan aplikasi ini.
 
