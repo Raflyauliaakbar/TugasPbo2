@@ -92,7 +92,7 @@ inputTextField.addFocusListener(new FocusListener() {
 
 ## Screenshot
 
-![Screenshot Aplikasi Cek Ganjil/Genap](https://via.placeholder.com/800x400.png?text=Screenshot+Placeholder)
+![alt text](tgs1.png)
 
 ---
 
