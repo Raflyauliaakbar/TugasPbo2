@@ -103,7 +103,7 @@ Pastikan Anda telah menginstal Java di sistem Anda, kemudian ikuti langkah-langk
 
 Berikut adalah screenshot dari aplikasi:
 
-c:\Users\SSD TURBO_BC\Documents\NetBeansProjects\TugasPbo\img\tgs4.png
+![alt text](tgs4.png)
 
 ---
 
