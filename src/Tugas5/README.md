@@ -107,7 +107,7 @@ Pastikan Anda telah menginstal Java di sistem Anda, kemudian ikuti langkah-langk
 
 Berikut adalah screenshot dari aplikasi:
 
-![alt text](tgs5-1.png)
+![alt text](tgs5.png)
 
 ---
 
