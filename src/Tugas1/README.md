@@ -96,49 +96,6 @@ inputTextField.addFocusListener(new FocusListener() {
 
 ---
 
-## Cara Build dan Jalankan Aplikasi
+## Dibuat Oleh
 
-1. **Clone repository** ini:
-
-   ```bash
-   git clone <repository-url>
-   ```
-
-2. Buka proyek di NetBeans IDE.
-3. Klik **Run** untuk menjalankan aplikasi.
-4. Alternatif: Generate file `.jar` dan jalankan menggunakan perintah:
-
-   ```bash
-   java -jar CekGanjilGenap.jar
-   ```
-
----
-
-## Kontribusi
-
-1. Fork repository ini.
-2. Buat branch baru untuk fitur atau perbaikan:
-
-   ```bash
-   git checkout -b fitur-baru
-   ```
-
-3. Lakukan commit perubahan:
-
-   ```bash
-   git commit -m "Menambahkan fitur baru"
-   ```
-
-4. Push branch ke repository Anda:
-
-   ```bash
-   git push origin fitur-baru
-   ```
-
-5. Buat pull request.
-
----
-
-## Lisensi
-
-Aplikasi ini dirilis di bawah lisensi MIT. Silakan lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+M.Rafly Aulia Akbar(2210010574)
