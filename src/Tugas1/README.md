@@ -1,101 +1,120 @@
-# Aplikasi Cek Ganjil/Genap
+📊 **Aplikasi Cek Nomor Genap/Ganjil**
 
-Aplikasi **Cek Ganjil/Genap** adalah sebuah program berbasis GUI (Graphical User Interface) yang dibuat menggunakan **Java Swing** di NetBeans IDE. Aplikasi ini dirancang untuk memeriksa apakah sebuah angka yang dimasukkan adalah bilangan ganjil atau genap, serta memberikan informasi apakah bilangan tersebut adalah bilangan prima.
-
----
-
-## Fitur Utama
-
-1. **Cek Ganjil/Genap**: Menentukan apakah angka yang dimasukkan adalah bilangan ganjil atau genap.
-2. **Validasi Input**:
-   - Hanya menerima angka sebagai input.
-   - Memberikan pesan peringatan jika input tidak valid.
-3. **Cek Bilangan Prima**: Menentukan apakah angka yang dimasukkan adalah bilangan prima.
-4. **GUI Interaktif**:
-   - Dibangun dengan JFrame.
-   - Input angka melalui JTextField dengan validasi otomatis.
-   - Output hasil ditampilkan menggunakan dialog JOptionPane.
+Aplikasi ini adalah program Java yang memungkinkan pengguna untuk memeriksa apakah suatu angka merupakan genap atau ganjil. Dengan antarmuka pengguna grafis (GUI) berbasis Java Swing, aplikasi ini menyediakan pengalaman pengguna yang sederhana dan mudah digunakan.
 
 ---
 
-## Cara Menggunakan
+## 📝 Deskripsi Program
 
-1. Jalankan aplikasi dari NetBeans IDE atau file JAR yang telah dihasilkan.
-2. Masukkan angka ke dalam kotak input.
-3. Klik tombol **Cek**.
-4. Informasi mengenai angka (ganjil/genap dan apakah bilangan prima) akan ditampilkan di dialog notifikasi.
+Aplikasi ini menawarkan tampilan GUI yang terdiri dari beberapa komponen:
 
----
+- **JTextField** untuk input angka dari pengguna.
+- **JButton** untuk tombol "Cek".
+- **JLabel** untuk menampilkan hasil cek nomor genap/ganjil beserta informasi tambahan.
 
-## Teknologi yang Digunakan
+### Fitur Utama:
 
-- **Java**: Bahasa pemrograman utama.
-- **Java Swing**: Untuk antarmuka pengguna grafis (GUI).
-- **NetBeans IDE**: Untuk pengembangan dan debugging.
-
----
-
-## Struktur Kode Utama
-
-### 1. **Validasi Input**
-
-- Input hanya menerima angka melalui validasi pada `KeyListener`.
-- Menampilkan pesan peringatan jika input tidak valid.
-
-### 2. **Cek Ganjil/Genap**
-
-```java
-if (angka % 2 == 0) {
-    hasil.append("Angka ").append(angka).append(" adalah Genap");
-} else {
-    hasil.append("Angka ").append(angka).append(" adalah Ganjil");
-}
-```
-
-### 3. **Cek Bilangan Prima**
-
-```java
-private boolean isPrima(int angka) {
-    if (angka <= 1) {
-        return false;
-    }
-    for (int i = 2; i <= Math.sqrt(angka); i++) {
-        if (angka % i == 0) {
-            return false;
-        }
-    }
-    return true;
-}
-```
-
-### 4. **FocusListener untuk Input Text Field**
-
-- Membersihkan teks placeholder saat pengguna mulai mengetik:
-
-```java
-inputTextField.addFocusListener(new FocusListener() {
-    @Override
-    public void focusGained(FocusEvent e) {
-        inputTextField.setText("");
-    }
-
-    @Override
-    public void focusLost(FocusEvent e) {
-        if (inputTextField.getText().trim().isEmpty()) {
-            inputTextField.setText("Masukkan angka");
-        }
-    }
-});
-```
+- **Validasi Input**: Program akan memeriksa apakah input dari pengguna valid.
+- **Cek Genap/Ganjil**: Menentukan apakah angka yang dimasukkan adalah genap atau ganjil.
+- **Pesan Error**: Jika input tidak valid, akan ditampilkan pesan error melalui JOptionPane.
+- **Cek Bilangan Prima**: Menentukan apakah angka tersebut adalah bilangan prima.
+- **Focus Listener**: Membersihkan JTextField saat mendapatkan fokus, agar pengguna dapat dengan mudah memasukkan angka baru.
 
 ---
 
-## Screenshot
+## 🖥️ Komponen GUI yang Digunakan
+
+Aplikasi ini menggunakan komponen-komponen dari Java Swing, yaitu:
+
+- **JFrame**: Sebagai frame utama aplikasi.
+- **JPanel**: Container untuk elemen-elemen UI lainnya.
+- **JLabel**: Menampilkan hasil cek genap/ganjil dan informasi lainnya.
+- **JTextField**: Tempat input angka oleh pengguna.
+- **JButton**: Tombol untuk memulai proses cek angka.
+
+---
+
+## ⚙️ Logika Program
+
+Logika yang digunakan dalam aplikasi mencakup:
+
+- **Kondisional (if-else)**: Untuk menentukan apakah angka yang dimasukkan adalah genap atau ganjil.
+- **Validasi Input**: Menggunakan KeyAdapter untuk membatasi input hanya berupa angka.
+- **Cek Bilangan Prima**: Fungsi untuk memeriksa apakah angka tersebut adalah bilangan prima.
+
+---
+
+## ⏳ Event-Handling
+
+Program ini menggunakan event listeners berikut:
+
+- **ActionListener** pada tombol "Cek" untuk menangani klik dan menjalankan logika cek.
+- **KeyAdapter** pada JTextField untuk membatasi input hanya berupa angka.
+- **FocusListener** untuk membersihkan JTextField ketika mendapat fokus.
+
+---
+
+## 🚀 Fitur Tambahan
+
+- **Cek Bilangan Prima**: Setelah menentukan genap atau ganjil, aplikasi juga memeriksa apakah angka tersebut adalah bilangan prima.
+- **Pesan Error**: Menggunakan JOptionPane untuk menampilkan pesan hasil dan kesalahan (misal: input tidak valid).
+- **FocusListener**: Fitur untuk membersihkan JTextField saat mendapatkan fokus agar pengguna dapat memasukkan angka baru dengan mudah.
+
+---
+
+## 📚 Cara Menggunakan Aplikasi
+
+1. Jalankan aplikasi.
+2. Masukkan angka pada JTextField.
+3. Klik tombol "Cek" untuk memulai.
+4. Hasil akan ditampilkan pada JLabel, menunjukkan apakah angka tersebut genap atau ganjil, dan juga apakah angka tersebut merupakan bilangan prima.
+
+---
+
+## 💻 Instalasi dan Jalankan Program
+
+Pastikan Anda telah menginstal Java di sistem Anda, kemudian ikuti langkah-langkah berikut:
+
+1. **Download atau clone repository** ini ke mesin lokal Anda:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. **Kompilasi program** dengan perintah berikut di terminal:
+
+   ```bash
+   javac CekNomorGanjilGenap.java
+   ```
+
+3. **Jalankan program** menggunakan perintah:
+
+   ```bash
+   java CekNomorGanjilGenap
+   ```
+
+---
+
+## 📸 Screenshot
+
+Berikut adalah screenshot dari aplikasi:
 
 ![alt text](tgs1.png)
 
 ---
 
-## Dibuat Oleh
+## 📜 Lisensi
 
-M.Rafly Aulia Akbar(2210010574)
+Aplikasi ini dibuat untuk tujuan pembelajaran dan bersifat open-source. Anda bebas untuk memodifikasi dan mendistribusikan ulang aplikasi ini sesuai dengan kebutuhan Anda.
+
+---
+
+## ✍️ Penulis
+
+- **Nama**: M. Rafly Aulia Akbar
+- **NPM**: 2210010574
+- **Kelas**: 5B REG BJB TI
+- **Kontak**: mraflyauliaakbar03@gmail.com
+
+Terima kasih telah menggunakan aplikasi ini! Jika Anda menemukan bug atau memiliki saran, silakan buka Issue di repository ini.
+
