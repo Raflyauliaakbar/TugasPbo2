@@ -44,10 +44,6 @@ Dengan menekan tombol **Save to CSV**, aplikasi akan menyimpan data cuaca dalam 
 Data CSV yang diekspor akan tertata rapi di Excel dengan kolom:
 ![alt text](tgs6csv.png)
 ```
-Kota            Suhu (°C)    Cuaca       Deskripsi
-Tabalong        28.5°C      Clear       Clear sky
-BanjarBaru      30.0°C      Rain        Light rain
-```
 
 ## 📚 Cara Menggunakan Aplikasi
 1. Jalankan aplikasi.
