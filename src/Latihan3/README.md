@@ -30,13 +30,13 @@ Aplikasi ini menggunakan komponen GUI berikut:
 Berikut adalah tampilan aplikasi Aplikasi Pengelolaan Kontak:
 
 - **Tampilan Utama**  
-  ![Tampilan Utama](./img/utama.png)
+  ![Tampilan Utama](img/utama.png)
 
 - **Ekspor Kontak ke CSV**  
-  ![Ekspor CSV](./img/export.png)
+  ![Ekspor CSV](img/export.png)
 
 - **Impor Kontak dari CSV**  
-  ![Impor CSV](./img/import.png)
+  ![Impor CSV](img/import.png)
 
 *(Ganti `path/to/your/...` dengan lokasi gambar yang relevan.)*
 
