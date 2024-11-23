@@ -29,7 +29,16 @@ Aplikasi ini menggunakan komponen GUI berikut:
 ## Screenshot 📸
 Berikut adalah tampilan aplikasi Aplikasi Pengelolaan Kontak:
 
-*(Tambahkan gambar tampilan aplikasi di sini)*
+- **Tampilan Utama**  
+  ![Tampilan Utama](img/utama.png)
+
+- **Ekspor Kontak ke CSV**  
+  ![Ekspor CSV](img/export.png)
+
+- **Impor Kontak dari CSV**  
+  ![Impor CSV](img/import.png)
+
+*(Ganti `path/to/your/...` dengan lokasi gambar yang relevan.)*
 
 ---
 
@@ -84,6 +93,7 @@ Berikut adalah tampilan aplikasi Aplikasi Pengelolaan Kontak:
 ## Penulis ✍️
 - **Nama**: M. Rafly Aulia Akbar  
 - **NPM**: 2210010574   
+- **Kelas**: 5B TI Reg BJB
 
 ---
 
